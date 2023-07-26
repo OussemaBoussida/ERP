@@ -83,7 +83,7 @@
 <html>
 <head>
   <title>ClickErp</title>
-  <link rel="stylesheet" type="text/css" href="ss.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-wu6aXjILOvI2XuMpk5S3Iyxf6AZTF5/jMBbHEfDo1mUQDdNzcRGtRqZnBY1CwvHTg6vEDLc78/QIENp2AfsszA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" href="photos/logo.ico">
