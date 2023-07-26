@@ -1,0 +1,740 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .sidebar img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: -70px;
+    margin-top: -100px;
+    padding-top: -70px;
+    margin-bottom: -200px;
+  }
+
+
+  .navbar1 img{
+    position: absolute;
+    margin-top: -11px;
+    margin-left: 318px;
+    width: 81.2%;
+    height: 17.7%;
+
+  }
+
+
+  .navbar2 img
+ {
+    position: absolute;
+    height: 16.2%;
+    width: 81.5%;
+    margin-top: 127.5px;
+    margin-left: 312px;  
+ }
+
+
+
+ .dashboard img
+ {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 320px;
+ }
+
+
+ .manager img
+ {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 370px;
+ }
+
+
+ .labo img
+ {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 435px;
+ }
+
+
+ .sections img
+ {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 510px;
+ }
+
+
+ .calendrier img
+ {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 570px;
+ }
+
+
+ .tache img
+ {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 630px;
+ }
+
+
+ .reporting img
+ {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 690px;
+ }
+
+
+ .notes img
+ {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 750px;
+ }
+
+
+ .msg img
+ {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 820px;
+ }
+
+
+ .profil img
+ {
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 870px;
+ }
+
+
+ .navbar22 img
+ {
+    position: relative;
+    margin-left: 400px;
+    margin-top: 140px;
+ }
+
+
+ .form1 img
+ {
+  margin-top: 60px;
+  margin-left: 360px;
+ }
+
+
+ .table img
+ {
+  margin-left: 343px;
+  margin-top: -90px;
+ }
+
+
+.part1
+{
+  margin-left: 430px;
+  margin-top: -750px;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16pt;
+}
+
+.part1 input[type="text"],
+.part1 input[type="email"],
+.part1 input[type="tel"] {
+  width: 24%;
+  border-radius: 6px;
+  color: #434343;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16pt;
+  border: 0.1px solid #a7a6a6;
+
+}
+.part1 input[type="date"]
+{
+    width: 24%;
+    border-radius: 6px;
+    color: #434343;
+    font-family: "Acumin Variable Concept", Arial, sans-serif;
+    font-size: 16pt;
+    border: 0.1px solid #a7a6a6;
+  
+}
+
+
+.required {
+  color: red;
+  margin-left: 5px;
+}
+
+.part2
+{
+  margin-left: 770px;
+  margin-top: -390.5px;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16pt;
+  position: absolute;
+}
+
+.part2 input[type="text"],
+.part2 input[type="file"],
+.part2 input[type="email"],
+.part2 input[type="tel"] {
+  width: 63%;
+  border-radius: 6px;
+  color: #434343;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16pt;
+  border: 0.1px solid #a7a6a6;
+}
+
+
+.part2 input[type="file"] {
+ 
+    border: 0.1px solid #a7a6a6;
+}
+
+
+.part3
+{
+  margin-left: 1220px;
+  margin-top: -290px;
+  position: absolute;
+}
+
+.circleWrapper {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.circleWrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.camera img{
+margin-left: 1390px;
+margin-top: 460px;
+position:absolute;
+z-index: 1;
+}
+
+
+.part4
+{
+  margin-left: 430px;
+  margin-top: 80px;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16pt;
+}
+
+
+.part4 input[type="text"] {
+  width: 24%;
+  border-radius: 7px;
+  color: #434343;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16pt;
+  border: 0.1px solid #a7a6a6;
+
+}
+
+
+.part5
+{
+  margin-left: 770px;
+  margin-top: -168px;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16pt;
+  position: absolute;
+}
+
+
+.part5 input[type="text"],
+.part5 input[type="number"] {
+  width: 113%;
+  border-radius: 7px;
+  color: #434343;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16pt;
+  border: 0.1px solid #a7a6a6;
+
+}
+
+
+ button[type="submit"] {
+  background-color: #206eae;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16pt;
+  margin-top: -35px;
+  margin-left: 1260px;
+  position: absolute;
+  font-weight: 500; /* Ajout de la police en gras */
+
+}
+
+button[type="submit"]:hover{
+  background-color: #ffffff;
+  color: #206eae;
+  border: 0.5px solid #206eae;
+}
+
+
+.search {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: transparent;
+  padding: 5px;
+  border: 1px solid #fff; /* Ajout de la bordure blanche */
+  height: 37px;
+  width: 400px; /* Ajustement de la largeur de l'input */
+  margin-top: 62px;
+  margin-left: 395px;
+
+}
+
+
+
+/*NAVBAR ECRITURE*/
+.search input[type="text"] {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 2px 5px;
+  font-size: 16px;
+  width: 150px;
+  color: #fff;
+  
+}
+
+
+/*NAVBAR ICON SEARCH*/
+.search i {
+  margin-left: 190px;
+  color: #fff;
+}
+
+
+.search input::placeholder {
+  color: #e5e9f0; /* Couleur blanche pour le placeholder */
+  font-size: 18px;
+}
+
+
+.search i.material-icons {
+  font-size: 40px; /* Taille de l'icône en pixels */
+}
+
+
+.part6 img{
+  margin-left: 345px;
+  position: absolute;
+}
+
+.date1
+{
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 430px;
+}
+.date2
+{
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 605px;
+}
+
+.poste1
+{
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 780px;
+  
+}
+.poste1 input[type="text"]
+{
+    border: 0.1px solid #a7a6a6;
+
+}
+.date1 input[type="date"]
+{
+    border: 0.1px solid #a7a6a6;
+
+}
+.date2 input[type="date"]
+{
+    border: 0.1px solid #a7a6a6;
+
+}
+.filtrer button{
+  background-color: #206eae;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 38px;
+  width: 120px;
+  border-radius: 5px;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16pt;
+  margin-top: 130px;
+  margin-left: 950px;
+  position: absolute;
+}
+.filtrer button:hover{
+    background-color: #206eae;
+    color: #fff;  color: #206eae;
+  border: 0.5px solid #206eae; /* Ajout de la bordure*/
+
+}
+
+.date1 input[type="date"],
+.date2 input[type="date"]{
+  width: 102%;
+  border-radius: 3px;
+  color: #434343;
+}
+.poste1 input[type="text"]{
+  width: 67%;
+  border-radius: 4px;
+}
+table {
+  border-collapse: collapse;
+  width: 67%;
+  margin-top: 350px;
+  margin-left: 430px;
+  position: absolute;
+
+
+}
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-weight: normal; /* Police normale (non-grasse) pour le contenu du tableau */
+
+}
+
+th {
+  height: 45px;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 14.5pt; 
+  color: #434343;
+  vertical-align: top; 
+  font-weight: 545;
+}
+
+td {
+  height: 70px;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 14pt;
+  color: #434343;
+  background-color: transparent;
+
+}
+
+.table-container button{
+  background-color: #206eae;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  height: 38px;
+  width: 120px;
+  border-radius: 5px;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16pt;
+  position: relative;
+}
+
+.table-container button:hover{
+  background-color: white;
+  color: #206eae;
+  border: 2px solid #206eae;
+}
+
+.part7 img
+{
+  position: absolute;
+  margin-top: 299px;
+  margin-left: 390px;
+ height: 144px;
+ width: 1216px;
+}
+.part6 .search2
+{
+  margin-left: 450px;
+  margin-top: 230px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: transparent;
+  padding: 5px;
+  border: 0.5px solid rgb(255, 255, 255); /* Ajout de la bordure blanche */
+  height: 41px;
+  width: 480px; /* Ajustement de la largeur de l'input */
+  z-index: 2;
+}
+.search2 input[type="text"] {
+  border: none;
+  outline: none;
+  padding: 2px 5px;
+  font-size: 19px;
+  width: 150px;
+  color: #434343;
+  background-color: transparent;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 14pt;
+  z-index: 2;
+  
+}
+.search2 i.material-icons {
+  font-size: 30px; /* Taille de l'icône en pixels */
+  margin-left: 290px;
+  color: #206eae;
+  z-index: 2;
+}
+.rei button{
+  margin-top: 130px;
+  color: #434343;
+  background-color: transparent;
+  margin-left: 1450px;
+}
+.rei button:hover{
+  color: #434343;
+  background-color: transparent;
+  border: 0.5px solid transparent; /* Ajout de la bordure blanche */
+
+}
+.rei img
+{
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  margin-left: -155px;
+  margin-top: 135px;
+}
+
+.circle2 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #206eae; /* Couleur de fond du cercle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Couleur du texte dans le cercle */
+  margin-top: 1050px;
+  margin-left: 1500px;
+  z-index: 2;
+}
+.choice-list {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 50px; /* Position de la liste à côté du cercle */
+  background-color: #ffffff; /* Couleur de fond de la liste */
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 1350px;
+  margin-left: 1400px;
+  list-style: none;
+  border: 0.5px solid #0a0a0a; /* Ajout de la bordure blanche */
+  width: 90px;
+  height: 140px;
+  z-index: 2;
+}
+.choice-list button {
+  display: block;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #434343;
+  border: 0.5px solid #ffffff; /* Ajout de la bordure blanche */
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16pt;
+  width: 90px;
+
+}
+
+.choice-list.visible {
+  display: block;
+}
+.circle2 img
+{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+.choice-list button:hover {
+    background-color: #206eae;
+    color: white;   
+  }
+
+
+  .compte img
+  {
+    position: absolute;
+    margin-left: 1560px;
+    margin-top: -1180px;
+  }
+  .sep img
+  {
+    position: absolute;
+    margin-left: 1390px;
+  }
+  .triangle button
+  {
+    position: absolute;
+    margin-left: 1325px;
+    margin-top: -1165px;
+    background-color: transparent;
+    border: 0.5px solid transparent; /* Ajout de la bordure blanche */
+    width: 80px;
+font-size: 11px;
+  }
+ 
+  .triangle button:hover
+  {
+    background-color: transparent;
+    border: 0.5px solid transparent; /* Ajout de la bordure blanche */
+    color: #fff;
+  }
+  .msg1 button
+  {
+    position: absolute;
+    margin-left: 1407px;
+    margin-top: -1155px;
+    background-color: transparent;
+    border: 0.5px solid transparent; /* Ajout de la bordure blanche */
+    width: 70px;
+font-size: 11px;
+  }
+ 
+  .msg1 button:hover
+  {
+    background-color: transparent;
+    border: 0.5px solid transparent; /* Ajout de la bordure blanche */
+  color:white;
+  }
+.msg1 img
+{
+position: absolute;
+left: -135px;
+bottom: 86.7%;
+}
+
+.notif button
+{
+  position: absolute;
+    margin-left: 1500px;
+    margin-top: -1155px;
+    background-color: transparent;
+    border: 0.5px solid transparent; /* Ajout de la bordure blanche */
+    width: 70px;
+font-size: 11px;
+}
+.notif button:hover
+{
+  background-color: transparent;
+  border: 0.5px solid transparent; /* Ajout de la bordure blanche */
+color:white;
+}
+.notif img
+{
+position: absolute;
+left: -43px;
+bottom: 86.4%;
+}
+.pagination img{
+    margin-left: 1400px;
+    margin-top: 645px;
+    position: absolute;
+    z-index: 1;
+
+}
+#prev-btn
+{
+  margin-top: 650px;
+  margin-left: 1390px;
+  color: #0a0a0a;
+  background-color: transparent;
+  border: 0.5px solid transparent; /* Ajout de la bordure blanche */
+  width: 30px;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16px;
+  position:absolute;
+  z-index: 2;
+
+}
+#next-btn
+{
+  margin-top: 650px;
+  margin-left: 1545px;
+  color: #0a0a0a;
+  background-color: transparent;
+  border: 0.5px solid transparent; /* Ajout de la bordure blanche */
+  width: 30px;
+  font-family: "Acumin Variable Concept", Arial, sans-serif;
+  font-size: 16px;
+  position:absolute;
+  z-index: 2;
+
+}
+.custom-icon-blue {
+    color: #1d639d; /* Changer la couleur en bleu */
+  }
+  .part10 img
+  {
+    position: absolute;
+    width: 567px;
+    height: 119px;
+    margin-top: 200px;
+    margin-left: 415px;
+    z-index: 0;
+  }
+
+  .filtrer img
+  {
+    margin-left: 1px;
+    height: 16px;
+    width: 81px;
+}
+/* Mettre l'icône en bleu, augmenter la taille et placer à gauche */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(40%) sepia(100%) saturate(10000%) hue-rotate(200deg); /* Mettre l'icône en bleu */
+    width: 24px; /* Augmenter la largeur de l'icône */
+    height: 24px; /* Augmenter la hauteur de l'icône */
+  }
+  /* Modifier le texte "Choisir un fichier" */
+input[type="file"]::before {
+  content: "  Upload File  "; /* Remplacer le texte */
+  margin-right: 300px; /* Espacement entre le texte et la bordure */
+  background-color: #e0e0e0;
+  border: 5px solid transparent; /* Ajout de la bordure*/
+  font-size: 16px;
+  border-radius: 15px;
+  color: #0a0a0a;
+}
