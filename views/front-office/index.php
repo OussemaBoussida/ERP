@@ -443,6 +443,167 @@
   </script>
   <!----------------------------------------controle de saisie------------------------------------------------>
   <script>
- 
+     function CTRL()
+                                {
+                                    //charger les variables avec les inputs que je vais saisir 
+                                    var prenom=document.getElementById("prenom").value;
+                                    var nom=document.getElementById("nom").value;
+                                    var date=document.getElementById("datee").value;
+                                    var adresse=document.getElementById("adresse").value;
+                                    var cin=document.getElementById("cin").value;
+                                    var email=document.getElementById("email").value;
+                                    var tel=document.getElementById("tel").value;
+                                    var poste=document.getElementById("titre_poste").value;
+                                    var contrat=document.getElementById("type_contrat").value;
+                                    var salaire=document.getElementById("salaire").value;
+                                    var rib=document.getElementById("rib").value;
+                                    //variable error 
+                                    var error_prenom = document.getElementById("error_prenom");
+                                    var error_nom = document.getElementById("error_nom");
+                                    var error_date = document.getElementById("error_date");
+                                    var error_adresse = document.getElementById("error_adresse");
+                                    var error_cin = document.getElementById("error_cin");
+                                    var error_email=document.getElementById("error_email");
+                                    var error_tel=document.getElementById("error_tel");
+                                    var error_poste=document.getElementById("error_poste");
+                                    var error_contrat=document.getElementById("error_contrat");
+                                    var error_salaire=document.getElementById("error_salaire");
+                                    var error_rib=document.getElementById("error_rib");
+                                    //verifier si les champs sont vides + autre fonctionnalitees
+
+                                    //prenom
+                                    if(prenom=="")
+                                    {
+                                        error_prenom.innerHTML="Champ obligatoire !";  
+                                    }
+                                    else 
+
+                                        if(prenom.charAt(0)>="a" && prenom.charAt(0)<="z")
+                                        {
+                                            error_prenom.innerHTML="Commence par lettre majuscule !";  
+                                        }
+                                        else
+                                        {
+                                            error_prenom.innerHTML="";  
+                                        }
+                                        //nom
+                                        if(nom=="")
+                                    {
+                                        error_nom.innerHTML="Champ obligatoire !";  
+                                    }
+                                    else 
+                                        if(nom.charAt(0)>="a" && nom.charAt(0)<="z")
+                                        {
+                                            error_nom.innerHTML="Commence par lettre majuscule !";  
+                                        }
+                                        else
+                                        {
+                                            error_nom.innerHTML="";  
+                                        }
+
+                                      //date
+                                        if(date=="")
+                                    {
+                                        error_date.innerHTML="Champ obligatoire !";  
+                                    }
+                                    else
+                                        {
+                                            error_date.innerHTML="";  
+                                        }
+                                      //adresse
+                                      if(adresse=="")
+                                    {
+                                        error_adresse.innerHTML="Champ obligatoire !";  
+                                    }
+                                    else
+                                        {
+                                            error_adresse.innerHTML="";  
+                                        }
+                                        //cin
+                                       if(cin=="")
+                                      {
+                                        error_cin.innerHTML="Champ obligatoire !";  
+                                      }
+                                       else
+                                        {
+                                            error_cin.innerHTML="";  
+                                        }
+                                        //email
+                                        var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                                        if (email === "") {
+                                        error_email.innerHTML = "Champ obligatoire !";
+                                        } else if (!emailPattern.test(email)) {
+                                        error_email.innerHTML = "Adresse e-mail invalide !";
+                                       } else {
+                                        error_email.innerHTML = "";
+                                        }
+                                        //tel
+                                        var telPattern = /^\d{8}$/;
+                                       if (tel === "") {
+                                       error_tel.innerHTML = "Champ obligatoire !";
+                                       } 
+                                       else if (!telPattern.test(tel)) {
+                                       error_tel.innerHTML = "Numéro de téléphone invalide !";
+                                       } 
+                                       else {
+                                        error_tel.innerHTML = "";
+                                       }
+
+                                       
+                                       //poste
+                                       if(poste=="")
+                                       {
+                                        error_poste.innerHTML="Champ obligatoire !";  
+                                       }
+                                       else
+                                        {
+                                            error_poste.innerHTML="";  
+                                        }
+
+                                       //contrat
+                                       if(contrat=="")
+                                       {
+                                        error_contrat.innerHTML="Champ obligatoire !";  
+                                       }
+                                       else
+                                        {
+                                            error_contrat.innerHTML="";  
+                                        }
+
+                                        //salaire
+                                       if(salaire=="")
+                                       {
+                                        error_salaire.innerHTML="Champ obligatoire !";  
+                                        }
+                                       else
+                                        {
+                                            error_salaire.innerHTML="";  
+                                        }
+
+                                       //rib
+                                      if(rib=="")
+                                       {
+                                        error_rib.innerHTML="Champ obligatoire !";  
+                                       }
+                                       else
+                                        {
+                                         error_rib.innerHTML="";  
+                                        }
+                                        if (
+        error_prenom.innerHTML !== "" &&
+        error_nom.innerHTML !== "" &&
+        error_date.innerHTML !== "" &&
+        error_adresse.innerHTML !== "" &&
+        error_cin.innerHTML !== "" &&
+        error_email.innerHTML !== "" &&
+        error_tel.innerHTML !== "" &&
+        error_poste.innerHTML !== "" &&
+        error_contrat.innerHTML !== "" &&
+        error_salaire.innerHTML !== "" &&
+        error_rib.innerHTML !== ""
+      ) {
+        return false;
+      }
+ }
   </script>
 </html>
