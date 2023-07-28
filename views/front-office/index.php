@@ -590,17 +590,17 @@
                                          error_rib.innerHTML="";  
                                         }
                                         if (
-        error_prenom.innerHTML !== "" &&
-        error_nom.innerHTML !== "" &&
-        error_date.innerHTML !== "" &&
-        error_adresse.innerHTML !== "" &&
-        error_cin.innerHTML !== "" &&
-        error_email.innerHTML !== "" &&
-        error_tel.innerHTML !== "" &&
-        error_poste.innerHTML !== "" &&
-        error_contrat.innerHTML !== "" &&
-        error_salaire.innerHTML !== "" &&
-        error_rib.innerHTML !== ""
+                                       error_prenom.innerHTML !== "" ||
+                                       error_nom.innerHTML !== "" ||
+                                       error_date.innerHTML !== "" ||
+                                       error_adresse.innerHTML !== "" ||
+                                       error_cin.innerHTML !== "" ||
+                                       error_email.innerHTML !== "" ||
+                                       error_tel.innerHTML !== "" ||
+                                       error_poste.innerHTML !== "" ||
+                                       error_contrat.innerHTML !== "" ||
+                                       error_salaire.innerHTML !== "" ||
+                                       error_rib.innerHTML !== ""
       ) {
         return false;
       }
